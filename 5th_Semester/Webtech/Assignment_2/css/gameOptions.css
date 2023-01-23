@@ -1,0 +1,26 @@
+.boxDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+
+    border-radius: 25px;
+
+    background-color: white;
+    color: #1e3d59;
+    border: 1px solid black;
+}
+
+.gameOption {
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 84%;
+    height: 110px;
+    
+    margin-top: 3%;
+}

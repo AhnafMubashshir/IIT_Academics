@@ -1,0 +1,18 @@
+.p1{
+    font-size: 18px;
+
+    text-align: center;
+
+    padding-left: 4px;
+    padding-right: 4px;
+
+    color: #1e3d59;
+}
+
+.image {
+    width: 100px;
+    
+    border-radius: 4px;
+    
+    padding-top: 40px;
+}

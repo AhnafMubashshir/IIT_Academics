@@ -1,0 +1,48 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    overflow: auto;
+    z-index: 1; /* Sit on top*/
+    
+    width: 100%; 
+    height: 100%; 
+    
+    padding-top: 200px;
+
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    width: 40%;
+    height: 35%;
+
+    border-radius: 5px;
+    margin: auto;
+
+    text-align: center;
+    font-size: 30px;
+
+    border: 1px solid #888;
+    background-color: #fefefe;
+}
+
+.close {
+    float: right;
+
+    font-size: 28px;
+    font-weight: bold;
+    color: #aaaaaa;
+}
+
+.close:hover,
+.close:focus {
+    cursor: pointer;
+
+    text-decoration: none;
+
+    color: #000;
+}
