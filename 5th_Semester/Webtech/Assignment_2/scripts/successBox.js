@@ -9,8 +9,6 @@ function successBox(){
     image.src = "image/right.png"
     div.append(image)
 
-    var btn = document.getElementById("myBtn");
-
     var span = document.getElementsByClassName("close")[0];
 
     var para = document.createElement("p")

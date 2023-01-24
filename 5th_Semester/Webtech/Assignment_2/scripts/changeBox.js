@@ -3,7 +3,6 @@ function changeBox(pBox , dBox){
 
     let temp = mainBox.children[pBox]
     let presentBox = temp.children[0]
-    // console.log(presentBox)
 
     temp = mainBox.children[dBox]
     let destinationBox = temp.children[0]

@@ -42,7 +42,5 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .close:focus {
     cursor: pointer;
 
-    text-decoration: none;
-
     color: #000;
 }

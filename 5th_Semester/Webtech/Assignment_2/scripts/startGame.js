@@ -16,7 +16,6 @@ function removeAll(){
 
 function starGame(){
     let mainDiv = document.getElementById("wrap")
-    console.log(mainDiv)
     let box = mainDiv.children[1]
     let innerBox= box.children[0]
 
